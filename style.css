@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.BgColor{
+    background-color: #7014e8;
+}
+.BgColor1{
+    background-color: #f0f0f0;
+}
+p #color{
+    background-color: #fff;
+    color:#7014e8;
+    border-color: #7014e8;
+}
+p #color:hover{
+    color:#fff;
+    background-color:#7014e8;
+}
