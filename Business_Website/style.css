@@ -1,0 +1,11 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.feature{
+    height: 4rem;
+    width:4rem;
+    font-size: 2rem;
+    line-height: 4rem;
+}
