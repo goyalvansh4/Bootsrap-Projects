@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#txt_stroke{
+    
+    position: relative;
+    -webkit-text-stroke: 2px #2937f0;
+     color: transparent;
+    text-decoration: none;
+    font-size: 2vw !important;
+    z-index: 1;
+    letter-spacing: .1rem;
+}
+#txt_stroke::before{
+    content: 'New Age';
+    position: absolute;
+    color: transparent;
+    -webkit-text-stroke: 2px  #9f1ae268;
+    top:5px ; 
+    left : 3px;
+    z-index: -1;
+}
+
+#bgGradient{
+    background: linear-gradient(45deg, #2937f0, #9f1ae2) !important;
+}
+
+.MainHeader{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.app_badge{
+    height:3rem;
+}
+.icon-feature{
+    font-size: 4rem;
+}
+
+.text-gradient{
+    background: -webkit-linear-gradient(45deg, #2937f0, #9f1ae2);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.cta{
+    position: relative;
+    padding: 15rem 0rem;
+    background-image: url("./img/bg.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+.shadow{
+    position: absolute;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 0;
+}
+.cta .container{
+    position: relative;
+    z-index: 1;
+}
+.modal-backdrop{
+    z-index: 1 !important;
+}
+#pro1{
+    position: fixed;
+    left:0;
+    bottom: 5%;
+    font-size: 1.2rem;
+    padding: 1px 4px;
+    color:#f76103;
+    border: 1px solid rgb(255, 162, 0);
+    text-decoration: none;
+}
+@media screen and (max-width:576px) {
+    #txt_stroke{
+        font-size: 7vw !important; 
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:768px) {
+    #txt_stroke{
+        font-size: 4.5vw !important; 
+    }
+}
